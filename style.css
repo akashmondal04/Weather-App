@@ -10,8 +10,8 @@ body{
 }
 .card{
     width: 90%;
-    max-width: 470px;
-    background: linear-gradient(135deg, #27f3fabb, #031c1399);
+    max-width: 570px;
+    background: linear-gradient(135deg, #d0fa27f0, #031c1399);
     color: #000000;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -62,12 +62,28 @@ body{
     font-weight: 400;
     margin-top: -10px;
 }
+.weather h3{
+    /* display: flex;
+    align-items: center;
+    text-align: left; */
+    font-size: 25px;
+    font-weight:200 ;
+    margin-top: -10px;
+}
 .details{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: o 20px;
     margin-top: 50px;
+}
+.details1{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    padding: o 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .col{
     display: flex;
@@ -78,7 +94,7 @@ body{
     width: 40px;
     margin-right: 10px;
 }
-.humid, .wind, .wDirection{
+.humid, .wind, .wDirection, .feels_like, .Min, .Max, .visibility {
     font-size: 28px;
     margin-top: -6px;
 }
