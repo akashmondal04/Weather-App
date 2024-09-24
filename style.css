@@ -78,7 +78,7 @@ body{
     width: 40px;
     margin-right: 10px;
 }
-.humid, .wind{
+.humid, .wind, .wDirection{
     font-size: 28px;
     margin-top: -6px;
 }
